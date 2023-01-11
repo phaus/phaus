@@ -22,3 +22,7 @@
 <a href="https://github.com/phaus">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
+
+<hr />
+
+<a rel="me" href="https://ruhr.social/@phaus">Mastodon</a>
