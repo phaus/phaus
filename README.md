@@ -2,7 +2,7 @@
   <img align="center" width="49%" src="./header.svg" />
 </a>
 <br/>
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=repositories">
   <img align="center" width="49%" src="./repositories.svg" />
 </a>
 <a href="https://github.com/phaus">
