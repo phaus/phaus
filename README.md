@@ -1,19 +1,19 @@
 <a href="https://github.com/phaus">
-  <img align="center" width="49%" src="./header.svg" />
+  <img align="center" width="100%" src="./header.svg" />
 </a>
 <br/>
 <a href="https://github.com/phaus?tab=repositories">
-  <img align="center" width="49%" src="./repositories.svg" />
+  <img align="center" width="100%" src="./repositories.svg" />
 </a>
 <a href="https://github.com/phaus">
-  <img align="center" width="49%" src="./acti_comm.svg" />
+  <img align="center" width="100%" src="./acti_comm.svg" />
 </a>
 
 <a href="https://github.com/phaus">
-    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+    <img align="center" width="100%" src="./issue_pr_lang.svg" />
 </a>
 <a href="https://github.com/phaus">
-  <img align="center" width="49%" src="./github-habits.svg" />
+  <img align="center" width="100%" src="./github-habits.svg" />
 </a>
 
 <a href="https://github.com/phaus">
