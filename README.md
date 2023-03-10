@@ -17,10 +17,11 @@
 </a>
 
 <a href="https://github.com/phaus">
-  <img align="center" width="49%" src="./iso_calender.svg" />
+  <img align="center" width="100%" src="./iso_calender.svg" />
 </a>
+
 <a href="https://github.com/phaus">
-    <img align="center" width="49%" src="./achievements.svg" />
+    <img align="center" width="100%" src="./achievements.svg" />
 </a>
 
 <hr />
