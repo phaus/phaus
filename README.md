@@ -1,3 +1,6 @@
+
+![phaus's GitHub stats](https://github-readme-stats.vercel.app/api?theme=transparent&username=phaus&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+<hr />
 <a href="https://github.com/phaus">
   <img align="center" width="49%" src="./header.svg" />
 </a>
@@ -20,7 +23,5 @@
   <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 <hr />
-
-![phaus's GitHub stats](https://github-readme-stats.vercel.app/api?username=phaus&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 <a rel="me" href="https://ruhr.social/@phaus">Mastodon</a>
