@@ -7,23 +7,23 @@ on:
   push: { branches: ["main"] }
 
 jobs:
-  achievements:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
+  # achievements:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: metrics.plugin.achievements.svg
+  #         # You'll need to setup a personal token in your secrets.
+  #         token: ${{ secrets.METRICS_SECRET }}
+  #         # GITHUB_TOKEN is a special auto-generated token used for commits
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
+  #         base: ""
+  #         plugin_achievements: yes
+  #         plugin_achievements_only: >-
+  #           polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+  #           scripter, packager, explorer, infographile, manager
+  #         plugin_achievements_display: compact
+  #         plugin_achievements_threshold: X
 
   github-metrics:
     runs-on: ubuntu-latest
@@ -143,22 +143,22 @@ jobs:
           plugin_followup: yes
           plugin_languages: yes
 
-  repositories:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.repositories.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+  # repositories:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: metrics.plugin.repositories.svg
+  #         # You'll need to setup a personal token in your secrets.
+  #         token: ${{ secrets.METRICS_SECRET }}
+  #         # GITHUB_TOKEN is a special auto-generated token used for commits
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Options
-          user: phaus
-          template: classic
-          base: repositories
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+  #         # Options
+  #         user: phaus
+  #         template: classic
+  #         base: repositories
+  #         config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   repositories-traffic:
     runs-on: ubuntu-latest
@@ -177,21 +177,21 @@ jobs:
           template: classic
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  waka-time:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.waka-time.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          # Options
-          user: phaus
-          template: classic
-          base: ""
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+  # waka-time:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: metrics.plugin.waka-time.svg
+  #         # You'll need to setup a personal token in your secrets.
+  #         token: ${{ secrets.METRICS_SECRET }}
+  #         # GITHUB_TOKEN is a special auto-generated token used for commits
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
+  #         # Options
+  #         user: phaus
+  #         template: classic
+  #         base: ""
+  #         config_timezone: ${{ secrets.USER_TIMEZONE }}
+  #         plugin_wakatime: yes
+  #         plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+  #         plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
