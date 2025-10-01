@@ -166,7 +166,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories-traffic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_SECRET }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: repositories
           plugin_traffic: yes
           # Options
