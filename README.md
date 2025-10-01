@@ -1,12 +1,15 @@
 <a href="https://github.com/phaus">
-  <img align="center" height="33%" src="./metrics.plugin.header.svg" />
+  <img align="center" width="49%" src="./metrics.plugin.header.svg" />
+</a>
+<a href="https://github.com/phaus">
+  <img align="center" width="49%" src="./metrics.plugin.achievements.svg" />
 </a>
 <hr />
 <a href="https://github.com/phaus">
-    <img align="center" height="33%" src="./metrics.plugin.issue_pr_lang.svg" />
+  <img align="center" width="49%" src="./metrics.plugin.iso_calender.svg" />
 </a>
 <a href="https://github.com/phaus">
-  <img align="center" height="33%" src="./metrics.plugin.iso_calender.svg" />
+    <img align="center" width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
 </a>
 <hr />
 <a href="https://github.com/phaus?tab=repositories">

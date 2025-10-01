@@ -7,23 +7,23 @@ on:
   push: { branches: ["main"] }
 
 jobs:
-  # achievements:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: lowlighter/metrics@latest
-  #       with:
-  #         filename: metrics.plugin.achievements.svg
-  #         # You'll need to setup a personal token in your secrets.
-  #         token: ${{ secrets.METRICS_SECRET }}
-  #         # GITHUB_TOKEN is a special auto-generated token used for commits
-  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
-  #         base: ""
-  #         plugin_achievements: yes
-  #         plugin_achievements_only: >-
-  #           polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-  #           scripter, packager, explorer, infographile, manager
-  #         plugin_achievements_display: compact
-  #         plugin_achievements_threshold: X
+  achievements:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: stalomeow/metrics@projects-v2 
+        with:
+          filename: metrics.plugin.achievements.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_SECRET }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
 
   github-metrics:
     runs-on: ubuntu-latest
