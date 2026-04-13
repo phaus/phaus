@@ -10,25 +10,25 @@ Software engineer based in Essen, Germany. Working at [@inspired-consulting](htt
 
 <hr />
 
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=achievements">
   <img align="center" width="49%" src="./metrics.plugin.achievements.svg" />
 </a>
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=overview">
   <img align="center" width="49%" src="./metrics.plugin.iso_calender.svg" />
 </a>
 
 <hr />
 
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=overview">
   <img align="center" width="49%" src="./metrics.plugin.github-habits.svg" />
 </a>
-<a href="https://github.com/phaus">
+<a href="https://github.com/pulls?q=author%3Aphaus">
   <img align="center" width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
 </a>
 
 <hr />
 
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=overview">
   <img align="center" width="49%" src="./metrics.plugin.acti_comm.svg" />
 </a>
 <a href="https://github.com/phaus?tab=repositories">
@@ -37,16 +37,16 @@ Software engineer based in Essen, Germany. Working at [@inspired-consulting](htt
 
 <hr />
 
-<a href="https://github.com/phaus">
+<a href="https://leetcode.com/u/phaus/">
   <img align="center" width="49%" src="./metrics.plugin.leetcode.svg" />
 </a>
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=stars">
   <img align="center" width="49%" src="./metrics.plugin.stargazers.svg" />
 </a>
 
 <hr />
 
-<a href="https://github.com/phaus">
+<a href="https://github.com/phaus?tab=repositories">
   <img align="center" width="100%" src="./metrics.plugin.notable-contributions.svg" />
 </a>
 
