@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{ cron: "0 * * * *" }]
+  # Schedule updates (daily at 6 AM UTC)
+  schedule: [{ cron: "0 6 * * *" }]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push: { branches: ["main"] }
@@ -177,21 +177,33 @@ jobs:
           template: classic
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  # waka-time:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: lowlighter/metrics@latest
-  #       with:
-  #         filename: metrics.plugin.waka-time.svg
-  #         # You'll need to setup a personal token in your secrets.
-  #         token: ${{ secrets.METRICS_SECRET }}
-  #         # GITHUB_TOKEN is a special auto-generated token used for commits
-  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
-  #         # Options
-  #         user: phaus
-  #         template: classic
-  #         base: ""
-  #         config_timezone: ${{ secrets.USER_TIMEZONE }}
-  #         plugin_wakatime: yes
-  #         plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-  #         plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+  notable-contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable-contributions.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: phaus
+          template: classic
+          base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
+
+  stargazers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: phaus
+          template: classic
+          base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: classic
