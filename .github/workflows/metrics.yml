@@ -51,6 +51,8 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: "repositories"
           plugin_lines: yes
+          plugin_lines_sections: base, repositories
+          plugin_lines_repositories_limit: 4
 
   acti_comm:
     runs-on: ubuntu-latest
@@ -105,24 +107,6 @@ jobs:
           base: ""
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
-
-  habits:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.github-habits.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
-          user: phaus
-          base: ""
-          template: classic
-          plugin_habits: yes
-          plugin_habits_from: 200 # Use 200 events to compute habits
-          plugin_habits_days: 14 # Keep only events from last 14 days
-          plugin_habits_charts: yes # Display charts section
-          plugin_habits_trim: yes # Trim unused hours on daily chart
 
   issue_pr_lang:
     runs-on: ubuntu-latest

@@ -19,11 +19,11 @@ Software engineer based in Essen, Germany. Working at [@inspired-consulting](htt
 
 <hr />
 
-<a href="https://github.com/phaus?tab=overview">
-  <img align="center" width="49%" src="./metrics.plugin.github-habits.svg" />
-</a>
 <a href="https://github.com/pulls?q=author%3Aphaus">
   <img align="center" width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
+</a>
+<a href="https://github.com/phaus?tab=repositories">
+  <img align="center" width="49%" src="./metrics.plugin.lines-of-code.svg" />
 </a>
 
 <hr />
@@ -48,6 +48,9 @@ Software engineer based in Essen, Germany. Working at [@inspired-consulting](htt
 
 <a href="https://github.com/phaus?tab=repositories">
   <img align="center" width="49%" src="./metrics.plugin.notable-contributions.svg" />
+</a>
+<a href="https://github.com/inspired-consulting">
+  <img align="center" width="49%" src="https://github.com/inspired-consulting.png" />
 </a>
 
 <hr />
