@@ -1,58 +1,78 @@
-### Hi, I'm Philipp
+### Philipp Haussmann
 
-Software engineer based in Essen, Germany. Working at [@inspired-consulting](https://github.com/inspired-consulting). I enjoy building tools, contributing to open source, and solving problems across a wide range of languages and platforms.
+Software Engineer based in Essen, Germany. Working at [inspired-consulting](https://github.com/inspired-consulting).  
+Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
-<hr />
+---
 
-<a href="https://github.com/phaus">
-  <img align="center" width="49%" src="./metrics.plugin.header.svg" />
-</a>
+### Profiles
 
-<hr />
+| Platform | Link |
+|----------|------|
+| GitHub | [github.com/phaus](https://github.com/phaus) |
+| GitLab.com | [gitlab.com/phaus](https://gitlab.com/phaus) |
+| GitLab (Self-hosted) | [git-lab.de/philipp](https://git-lab.de/philipp) |
+| Mastodon | [@phaus@ruhr.social](https://ruhr.social/@phaus) |
+| LeetCode | [leetcode.com/u/phaus](https://leetcode.com/u/phaus/) |
 
-<a href="https://github.com/phaus?tab=achievements">
-  <img align="center" width="49%" src="./metrics.plugin.achievements.svg" />
-</a>
-<a href="https://github.com/phaus?tab=overview">
-  <img align="center" width="49%" src="./metrics.plugin.iso_calender.svg" />
-</a>
+---
 
-<hr />
+### Tech Stack
 
-<a href="https://github.com/pulls?q=author%3Aphaus">
-  <img align="center" width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
-</a>
-<a href="https://github.com/phaus?tab=repositories">
-  <img align="center" width="49%" src="./metrics.plugin.lines-of-code.svg" />
-</a>
+**Languages:** Rust, Go, TypeScript, Python, C++  
+**Agentic / Local AI:** Ollama, llama.cpp, vLLM, AutoGPT, OpenHands, Claude Code, Cursor  
+**Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD  
+**Embedded:** Yocto, Veld SDK, cxx-qt, aarch64 Cross-Compilation (Thermomix TM7)
 
-<hr />
+---
 
-<a href="https://github.com/phaus?tab=overview">
-  <img align="center" width="49%" src="./metrics.plugin.acti_comm.svg" />
-</a>
-<a href="https://github.com/phaus?tab=repositories">
-  <img align="center" width="49%" src="./metrics.plugin.repositories-traffic.svg" />
-</a>
+### Current Projects
 
-<hr />
+- **opencode-extensions** – Skills, Subagents, MCP integrations for agentic coding
+- **tm7-rust-qt** – Rust/Qt development for Vorwerk Thermomix TM7 (embedded Linux)
+- **cavecrew** – Subagent orchestration with compressed context (caveman mode)
+- **Local AI Tooling** – Wrappers for Ollama/llama.cpp/vLLM in CI/CD and editor integration
 
-<a href="https://leetcode.com/u/phaus/">
-  <img align="center" width="49%" src="./metrics.plugin.leetcode.svg" />
-</a>
-<a href="https://github.com/phaus?tab=stars">
-  <img align="center" width="49%" src="./metrics.plugin.stargazers.svg" />
-</a>
+---
 
-<hr />
+### GitHub Metrics
 
-<a href="https://github.com/phaus?tab=repositories">
-  <img align="center" width="49%" src="./metrics.plugin.notable-contributions.svg" />
-</a>
-<a href="https://github.com/inspired-consulting">
-  <img align="center" width="49%" src="https://github.com/inspired-consulting.png" />
-</a>
+<p align="center">
+  <img width="49%" src="./metrics.plugin.header.svg" />
+  <img width="49%" src="./metrics.plugin.iso_calender.svg" />
+</p>
+<p align="center">
+  <img width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
+  <img width="49%" src="./metrics.plugin.lines-of-code.svg" />
+</p>
+<p align="center">
+  <img width="49%" src="./metrics.plugin.acti_comm.svg" />
+  <img width="49%" src="./metrics.plugin.repositories-traffic.svg" />
+</p>
+<p align="center">
+  <img width="49%" src="./metrics.plugin.leetcode.svg" />
+  <img width="49%" src="./metrics.plugin.stargazers.svg" />
+</p>
 
-<hr />
+---
 
-<a rel="me" href="https://ruhr.social/@phaus">Mastodon</a>
+### Highlights
+
+- Maintainer of **cavecrew** (agentic subagent framework)
+- Contributor to **opencode** (AI coding agent)
+- Embedded Rust on **Cortex-A53** (Yocto/Veld SDK)
+- Open Source: 200+ PRs across Rust, Go, TS ecosystems
+
+---
+
+<details>
+<summary>📊 Detailed Statistics</summary>
+
+<p align="center">
+  <img src="./metrics.plugin.achievements.svg" />
+</p>
+<p align="center">
+  <img src="./metrics.plugin.notable-contributions.svg" />
+</p>
+
+</details>
