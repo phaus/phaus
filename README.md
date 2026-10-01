@@ -51,6 +51,17 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 - **java-zfs** – Java ZFS integration
 - **docker-openfire** – OpenFire XMPP server Docker image
 
+**consolving Organization (contributor/maintainer):**
+
+*GitHub ([consolving](https://github.com/consolving)):*
+- **gokrazy-router** (2⭐) – Router firmware on gokrazy
+- **autodns.go** – Go binding for AutoDNS XML API
+- **gokrazy-kernel-a20** – Custom kernel for gokrazy on Allwinner A20
+- **flynn-infra** – Infrastructure tooling for Flynn PaaS rebuild
+
+*Self-hosted GitLab ([consolving](https://git-lab.de/consolving)):*
+- **gitlab-review-bot** – Automated merge request review bot
+
 ---
 
 ### GitHub Metrics
