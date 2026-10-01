@@ -10,7 +10,6 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 | Platform | Link |
 |----------|------|
 | GitHub | [github.com/phaus](https://github.com/phaus) |
-| GitLab.com | [gitlab.com/phaus](https://gitlab.com/phaus) |
 | GitLab (Self-hosted) | [git-lab.de/philipp](https://git-lab.de/philipp) |
 | Mastodon | [@phaus@ruhr.social](https://ruhr.social/@phaus) |
 
@@ -28,39 +27,36 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 ### Notable Public Repositories
 
 **GitHub ([phaus](https://github.com/phaus)):**
-- **traefik-proxmox-plugin** (18⭐) – Proxmox provider for Traefik reverse proxy
-- **go-proxmox** – Go client with types for Proxmox-VE REST API
-- **app-store** (5⭐) – Personal Umbrel App Store repository
-- **nvml-wrapper** – Safe Rust wrapper for NVIDIA Management Library
-- **vagrant-proxmox** – Vagrant provider to manage Proxmox VMs
-- **umbrel-apps** – Official Umbrel App Store repository
-- **memory-vibes** – Memory bandwidth benchmark tool
-- **room.ventures** – Hugo static site for hotel room reviews
-- **qemu-ga-container** – Containerized QEMU guest agent for VM management
-- **gokrazy-syswall** – System wall for gokrazy appliances
-
-**GitLab.com ([phaus](https://gitlab.com/phaus)):**
-- **9999-marp-template** – Marp slide deck template
+- [**traefik-proxmox-plugin**](https://github.com/phaus/traefik-proxmox-plugin) (18⭐) – Proxmox provider for Traefik reverse proxy
+- [**go-proxmox**](https://github.com/phaus/go-proxmox) – Go client with types for Proxmox-VE REST API
+- [**app-store**](https://github.com/phaus/app-store) (5⭐) – Personal Umbrel App Store repository
+- [**nvml-wrapper**](https://github.com/phaus/nvml-wrapper) – Safe Rust wrapper for NVIDIA Management Library
+- [**vagrant-proxmox**](https://github.com/phaus/vagrant-proxmox) – Vagrant provider to manage Proxmox VMs
+- [**umbrel-apps**](https://github.com/phaus/umbrel-apps) – Official Umbrel App Store repository
+- [**memory-vibes**](https://github.com/phaus/memory-vibes) – Memory bandwidth benchmark tool
+- [**room.ventures**](https://github.com/phaus/room.ventures) – Hugo static site for hotel room reviews
+- [**qemu-ga-container**](https://github.com/phaus/qemu-ga-container) – Containerized QEMU guest agent for VM management
+- [**gokrazy-syswall**](https://github.com/phaus/gokrazy-syswall) – System wall for gokrazy appliances
 
 **Self-hosted GitLab ([philipp](https://git-lab.de/philipp)):**
-- **Fritzbox-Unifi-Device-Agent** – Device tracking between Fritzbox & UniFi
-- **user-stats** – User statistics collector
-- **amun-oc-efi** – OpenCore EFI for AMD Hackintosh
-- **docker-gitlab** – GitLab Docker deployment
-- **ui-test** – Go UI testing experiments
-- **java-zfs** – Java ZFS integration
-- **docker-openfire** – OpenFire XMPP server Docker image
+- [**Fritzbox-Unifi-Device-Agent**](https://git-lab.de/philipp/Fritzbox-Unifi-Device-Agent) – Device tracking between Fritzbox & UniFi
+- [**user-stats**](https://git-lab.de/philipp/user-stats) – User statistics collector
+- [**amun-oc-efi**](https://git-lab.de/philipp/amun-oc-efi) – OpenCore EFI for AMD Hackintosh
+- [**docker-gitlab**](https://git-lab.de/philipp/docker-gitlab) – GitLab Docker deployment
+- [**ui-test**](https://git-lab.de/philipp/ui-test) – Go UI testing experiments
+- [**java-zfs**](https://git-lab.de/philipp/java-zfs) – Java ZFS integration
+- [**docker-openfire**](https://git-lab.de/philipp/docker-openfire) – OpenFire XMPP server Docker image
 
 **consolving Organization (contributor/maintainer):**
 
 *GitHub ([consolving](https://github.com/consolving)):*
-- **gokrazy-router** (2⭐) – Router firmware on gokrazy
-- **autodns.go** – Go binding for AutoDNS XML API
-- **gokrazy-kernel-a20** – Custom kernel for gokrazy on Allwinner A20
-- **flynn-infra** – Infrastructure tooling for Flynn PaaS rebuild
+- [**gokrazy-router**](https://github.com/consolving/gokrazy-router) (2⭐) – Router firmware on gokrazy
+- [**autodns.go**](https://github.com/consolving/autodns.go) – Go binding for AutoDNS XML API
+- [**gokrazy-kernel-a20**](https://github.com/consolving/gokrazy-kernel-a20) – Custom kernel for gokrazy on Allwinner A20
+- [**flynn-infra**](https://github.com/consolving/flynn-infra) – Infrastructure tooling for Flynn PaaS rebuild
 
 *Self-hosted GitLab ([consolving](https://git-lab.de/consolving)):*
-- **gitlab-review-bot** – Automated merge request review bot
+- [**gitlab-review-bot**](https://git-lab.de/consolving/gitlab-review-bot) – Automated merge request review bot
 
 ---
 
