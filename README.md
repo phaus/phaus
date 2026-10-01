@@ -13,7 +13,7 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 | GitLab.com | [gitlab.com/phaus](https://gitlab.com/phaus) |
 | GitLab (Self-hosted) | [git-lab.de/philipp](https://git-lab.de/philipp) |
 | Mastodon | [@phaus@ruhr.social](https://ruhr.social/@phaus) |
-| LeetCode | [leetcode.com/u/phaus](https://leetcode.com/u/phaus/) |
+
 
 ---
 
@@ -25,11 +25,31 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 ---
 
-### Current Projects
+### Notable Public Repositories
 
-- **opencode-extensions** – Skills, Subagents, MCP integrations for agentic coding
-- **cavecrew** – Subagent orchestration with compressed context (caveman mode)
-- **Local AI Tooling** – Wrappers for Ollama/llama.cpp/vLLM in CI/CD and editor integration
+**GitHub ([phaus](https://github.com/phaus)):**
+- **traefik-proxmox-plugin** (18⭐) – Proxmox provider for Traefik reverse proxy
+- **go-proxmox** – Go client with types for Proxmox-VE REST API
+- **app-store** (5⭐) – Personal Umbrel App Store repository
+- **nvml-wrapper** – Safe Rust wrapper for NVIDIA Management Library
+- **vagrant-proxmox** – Vagrant provider to manage Proxmox VMs
+- **umbrel-apps** – Official Umbrel App Store repository
+- **memory-vibes** – Memory bandwidth benchmark tool
+- **room.ventures** – Hugo static site for hotel room reviews
+- **qemu-ga-container** – Containerized QEMU guest agent for VM management
+- **gokrazy-syswall** – System wall for gokrazy appliances
+
+**GitLab.com ([phaus](https://gitlab.com/phaus)):**
+- **9999-marp-template** – Marp slide deck template
+
+**Self-hosted GitLab ([philipp](https://git-lab.de/philipp)):**
+- **Fritzbox-Unifi-Device-Agent** – Device tracking between Fritzbox & UniFi
+- **user-stats** – User statistics collector
+- **amun-oc-efi** – OpenCore EFI for AMD Hackintosh
+- **docker-gitlab** – GitLab Docker deployment
+- **ui-test** – Go UI testing experiments
+- **java-zfs** – Java ZFS integration
+- **docker-openfire** – OpenFire XMPP server Docker image
 
 ---
 
@@ -48,7 +68,6 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
   <img width="49%" src="./metrics.plugin.repositories-traffic.svg" />
 </p>
 <p align="center">
-  <img width="49%" src="./metrics.plugin.leetcode.svg" />
   <img width="49%" src="./metrics.plugin.stargazers.svg" />
 </p>
 
