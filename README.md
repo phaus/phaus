@@ -21,15 +21,13 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 **Languages:** Rust, Go, TypeScript, Python, C++  
 **Agentic / Local AI:** Ollama, llama.cpp, vLLM, AutoGPT, OpenHands, Claude Code, Cursor  
-**Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD  
-**Embedded:** Yocto, Veld SDK, cxx-qt, aarch64 Cross-Compilation (Thermomix TM7)
+**Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD
 
 ---
 
 ### Current Projects
 
 - **opencode-extensions** – Skills, Subagents, MCP integrations for agentic coding
-- **tm7-rust-qt** – Rust/Qt development for Vorwerk Thermomix TM7 (embedded Linux)
 - **cavecrew** – Subagent orchestration with compressed context (caveman mode)
 - **Local AI Tooling** – Wrappers for Ollama/llama.cpp/vLLM in CI/CD and editor integration
 
@@ -60,7 +58,6 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 - Maintainer of **cavecrew** (agentic subagent framework)
 - Contributor to **opencode** (AI coding agent)
-- Embedded Rust on **Cortex-A53** (Yocto/Veld SDK)
 - Open Source: 200+ PRs across Rust, Go, TS ecosystems
 
 ---
