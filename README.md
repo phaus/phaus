@@ -1,29 +1,5 @@
 ### Philipp Haussmann
 
-Software Engineer based in Essen, Germany. Working at [inspired-consulting](https://github.com/inspired-consulting).  
-Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
-
----
-
-### Profiles
-
-| Platform | Link |
-|----------|------|
-| GitHub | [github.com/phaus](https://github.com/phaus) |
-| GitLab (Self-hosted) | [git-lab.de/philipp](https://git-lab.de/philipp) |
-| Mastodon | [@phaus@ruhr.social](https://ruhr.social/@phaus) |
-
-
----
-
-### Tech Stack
-
-**Languages:** Rust, Go, TypeScript, Python, C++  
-**Agentic / Local AI:** Ollama, llama.cpp, vLLM, AutoGPT, OpenHands, Claude Code, Cursor  
-**Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD
-
----
-
 ### GitHub Metrics
 
 <p align="center">
@@ -41,6 +17,29 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 <p align="center">
   <img width="49%" src="./metrics.plugin.stargazers.svg" />
 </p>
+
+---
+
+Software Engineer based in Essen, Germany. Working at [inspired-consulting](https://github.com/inspired-consulting).  
+Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
+
+---
+
+### Profiles
+
+| Platform | Link |
+|----------|------|
+| GitHub | [github.com/phaus](https://github.com/phaus) |
+| GitLab (Self-hosted) | [git-lab.de/philipp](https://git-lab.de/philipp) |
+| Mastodon | [@phaus@ruhr.social](https://ruhr.social/@phaus) |
+
+---
+
+### Tech Stack
+
+**Languages:** Rust, Go, TypeScript, Python, C++  
+**Agentic / Local AI:** Ollama, llama.cpp, vLLM, AutoGPT, OpenHands, Claude Code, Cursor  
+**Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD
 
 ---
 
