@@ -1,4 +1,4 @@
-### Philipp Haussmann
+### Philipp Haussleiter
 
 ### GitHub Metrics
 
@@ -37,8 +37,8 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 ### Tech Stack
 
-**Languages:** Rust, Go, TypeScript, Python, C++  
-**Agentic / Local AI:** Ollama, llama.cpp, vLLM, AutoGPT, OpenHands, Claude Code, Cursor  
+**Languages:** Java, Go, JavaScript, Rust, Shell  
+**Agentic / Local AI:** Ollama, llama.cpp, vLLM, Claude Code, Cursor  
 **Infrastructure:** Kubernetes, NixOS, Podman, systemd, GitLab CI/CD
 
 ---
@@ -49,7 +49,7 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 - [**traefik-proxmox-plugin**](https://github.com/phaus/traefik-proxmox-plugin) (18⭐) – Proxmox provider for Traefik reverse proxy
 - [**go-proxmox**](https://github.com/phaus/go-proxmox) – Go client with types for Proxmox-VE REST API
 - [**app-store**](https://github.com/phaus/app-store) (5⭐) – Personal Umbrel App Store repository
-- [**nvml-wrapper**](https://github.com/phaus/nvml-wrapper) – Safe Rust wrapper for NVIDIA Management Library
+- [**nvml-wrapper**](https://github.com/phaus/nvml-wrapper) – Fork of the safe Rust wrapper for NVIDIA Management Library
 - [**vagrant-proxmox**](https://github.com/phaus/vagrant-proxmox) – Vagrant provider to manage Proxmox VMs
 - [**umbrel-apps**](https://github.com/phaus/umbrel-apps) – Official Umbrel App Store repository
 - [**memory-vibes**](https://github.com/phaus/memory-vibes) – Memory bandwidth benchmark tool
@@ -79,11 +79,33 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 ---
 
+### Upstream Contributions
+
+152 public PRs, 115 merged, across ~35 external repositories. Main areas: Java, Go, JavaScript.
+
+| Repository | Merged PRs | Project |
+|------------|-----------:|---------|
+| [innoq/LiQID](https://github.com/innoq/LiQID) | 14 | Java identity management |
+| [consolving/flynn](https://github.com/consolving/flynn) | 13 | Flynn PaaS (Go) |
+| [offlinehoster/kickster](https://github.com/offlinehoster/kickster) | 7 | JavaScript project scaffolding |
+| [Games-for-Hire/bullshit-memory](https://github.com/Games-for-Hire/bullshit-memory) | 7 | Memory game |
+| [consolving/flynn-infra](https://github.com/consolving/flynn-infra) | 7 | Flynn infrastructure |
+| [munin-monitoring/contrib](https://github.com/munin-monitoring/contrib) | 4 | Munin plugins (Perl) |
+| [mojbro/gocoa](https://github.com/mojbro/gocoa) | 4 | Objective-C Cocoa wrapper |
+| [curiosdevcookie/taskmaster](https://github.com/curiosdevcookie/taskmaster) | 4 | Elixir task runner |
+| [consolving/gokrazy-router](https://github.com/consolving/gokrazy-router) | 4 | gokrazy router firmware |
+| [google/martian](https://github.com/google/martian) | 2 | Go HTTP proxy |
+| [google/go-replayers](https://github.com/google/go-replayers) | 2 | Go replay mock library |
+
+Single merged PRs in: [playframework/playframework](https://github.com/playframework/playframework), [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core), [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper), [gokrazy/tools](https://github.com/gokrazy/tools), [gokrazy/internal](https://github.com/gokrazy/internal), [getumbrel/umbrel](https://github.com/getumbrel/umbrel), [getumbrel/umbrel-apps](https://github.com/getumbrel/umbrel-apps), [appwrite/sdk-generator](https://github.com/appwrite/sdk-generator), [coreos/docs](https://github.com/coreos/docs), [machine-drivers/docker-machine-driver-qemu](https://github.com/machine-drivers/docker-machine-driver-qemu), [innoq/search-aggregator](https://github.com/innoq/search-aggregator), [innoq/statuses](https://github.com/innoq/statuses), [innoq/oathkeeper](https://github.com/innoq/oathkeeper).
+
+---
+
 ### Highlights
 
-- Maintainer of **cavecrew** (agentic subagent framework)
-- Contributor to **opencode** (AI coding agent)
-- Open Source: 200+ PRs across Rust, Go, TS ecosystems
+- Maintainer of **traefik-proxmox-plugin** (18⭐) and **go-proxmox**
+- 152 public PRs, 115 merged, across Rust, Go, Java, and JavaScript ecosystems
+- Self-hosted infrastructure: GitLab, Kubernetes, NixOS
 
 ---
 
