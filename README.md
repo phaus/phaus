@@ -3,8 +3,10 @@
 ### GitHub Metrics
 
 <p align="center">
-  <img width="49%" src="./metrics.plugin.header.svg" />
-  <img width="49%" src="./metrics.plugin.iso_calender.svg" />
+  <img width="98%" src="./metrics.plugin.header.svg" />
+</p
+<p align="center">
+  <img width="98%" src="./metrics.plugin.iso_calender.svg" />
 </p>
 <p align="center">
   <img width="49%" src="./metrics.plugin.issue_pr_lang.svg" />
