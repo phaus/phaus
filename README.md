@@ -51,6 +51,7 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 - [**traefik-proxmox-plugin**](https://github.com/phaus/traefik-proxmox-plugin) (18⭐) – Proxmox provider for Traefik reverse proxy
 - [**go-proxmox**](https://github.com/phaus/go-proxmox) – Go client with types for Proxmox-VE REST API
 - [**app-store**](https://github.com/phaus/app-store) (5⭐) – Personal Umbrel App Store repository
+- [**error-service**](https://github.com/phaus/error-service) (4⭐) – EaaS: serves HTTP errors on purpose or randomly
 - [**nvml-wrapper**](https://github.com/phaus/nvml-wrapper) – Fork of the safe Rust wrapper for NVIDIA Management Library
 - [**vagrant-proxmox**](https://github.com/phaus/vagrant-proxmox) – Vagrant provider to manage Proxmox VMs
 - [**umbrel-apps**](https://github.com/phaus/umbrel-apps) – Official Umbrel App Store repository
@@ -58,6 +59,8 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 - [**room.ventures**](https://github.com/phaus/room.ventures) – Hugo static site for hotel room reviews
 - [**qemu-ga-container**](https://github.com/phaus/qemu-ga-container) – Containerized QEMU guest agent for VM management
 - [**gokrazy-syswall**](https://github.com/phaus/gokrazy-syswall) – System wall for gokrazy appliances
+- [**serial**](https://github.com/phaus/serial) – serial-bridge: BalenaOS serial stream terminal for the Raspberry Pi 1
+- [**flynn-tuf-repo**](https://github.com/phaus/flynn-tuf-repo) – TUF repository for the Flynn reconstruction
 
 **Self-hosted GitLab ([philipp](https://git-lab.de/philipp)):**
 - [**Fritzbox-Unifi-Device-Agent**](https://git-lab.de/philipp/Fritzbox-Unifi-Device-Agent) – Device tracking between Fritzbox & UniFi
@@ -74,6 +77,8 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 - [**gokrazy-router**](https://github.com/consolving/gokrazy-router) (2⭐) – Router firmware on gokrazy
 - [**autodns.go**](https://github.com/consolving/autodns.go) – Go binding for AutoDNS XML API
 - [**gokrazy-kernel-a20**](https://github.com/consolving/gokrazy-kernel-a20) – Custom kernel for gokrazy on Allwinner A20
+- [**gokrazy-scanopy**](https://github.com/consolving/gokrazy-scanopy) – Scanopy network discovery daemon for gokrazy (Banana Pi R1)
+- [**gokrazy-milkv-duo-kernel**](https://github.com/consolving/gokrazy-milkv-duo-kernel) – gokrazy kernel for the Milk-V Duo
 - [**flynn-infra**](https://github.com/consolving/flynn-infra) – Infrastructure tooling for Flynn PaaS rebuild
 
 *Self-hosted GitLab ([consolving](https://git-lab.de/consolving)):*
@@ -83,7 +88,7 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 
 ### Upstream Contributions
 
-152 public PRs, 115 merged, across ~35 external repositories. Main areas: Java, Go, JavaScript.
+151 public PRs, 114 merged, across ~50 external repositories. Main areas: Go, Rust, Java.
 
 | Repository | Merged PRs | Project |
 |------------|-----------:|---------|
@@ -98,15 +103,18 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 | [consolving/gokrazy-router](https://github.com/consolving/gokrazy-router) | 4 | gokrazy router firmware |
 | [google/martian](https://github.com/google/martian) | 2 | Go HTTP proxy |
 | [google/go-replayers](https://github.com/google/go-replayers) | 2 | Go replay mock library |
+| [EmDee/moneymoney-bondora](https://github.com/EmDee/moneymoney-bondora) | 2 | MoneyMoney extension for Bondora |
 
-Single merged PRs in: [playframework/playframework](https://github.com/playframework/playframework), [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core), [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper), [gokrazy/tools](https://github.com/gokrazy/tools), [gokrazy/internal](https://github.com/gokrazy/internal), [getumbrel/umbrel](https://github.com/getumbrel/umbrel), [getumbrel/umbrel-apps](https://github.com/getumbrel/umbrel-apps), [appwrite/sdk-generator](https://github.com/appwrite/sdk-generator), [coreos/docs](https://github.com/coreos/docs), [machine-drivers/docker-machine-driver-qemu](https://github.com/machine-drivers/docker-machine-driver-qemu), [innoq/search-aggregator](https://github.com/innoq/search-aggregator), [innoq/statuses](https://github.com/innoq/statuses), [innoq/oathkeeper](https://github.com/innoq/oathkeeper).
+Single merged PRs in: [getumbrel/umbrel](https://github.com/getumbrel/umbrel), [appwrite/sdk-generator](https://github.com/appwrite/sdk-generator), [coreos/docs](https://github.com/coreos/docs), [innoq/search-aggregator](https://github.com/innoq/search-aggregator), [innoq/statuses](https://github.com/innoq/statuses), [innoq/oathkeeper](https://github.com/innoq/oathkeeper), [innoq/lvm-roca-prototype](https://github.com/innoq/lvm-roca-prototype), [innoq/iQpdfutil](https://github.com/innoq/iQpdfutil), [innoq/helloworld_play](https://github.com/innoq/helloworld_play), [dskad/qemu-ga-container](https://github.com/dskad/qemu-ga-container), [faabiosr/docker-golang-glide](https://github.com/faabiosr/docker-golang-glide), [feststelltaste/awesome-software-analytics](https://github.com/feststelltaste/awesome-software-analytics), [gschueler/vagrant-rundeck-ldap](https://github.com/gschueler/vagrant-rundeck-ldap), [jdiemke/delaunay-triangulator](https://github.com/jdiemke/delaunay-triangulator), [jscraftcamp/website](https://github.com/jscraftcamp/website), [inspired-consulting/unbox-pdf](https://github.com/inspired-consulting/unbox-pdf), [inspired-consulting/threat-shield-website](https://github.com/inspired-consulting/threat-shield-website), [inspired-consulting/profiles](https://github.com/inspired-consulting/profiles), [tabler/tabler-webjar](https://github.com/tabler/tabler-webjar), [tiborvass/go-jsx](https://github.com/tiborvass/go-jsx), [victorjacobs/tweetnest](https://github.com/victorjacobs/tweetnest).
+
+Open PRs in: [consolving/gokrazy-router](https://github.com/consolving/gokrazy-router), [gokrazy/tools](https://github.com/gokrazy/tools), [gokrazy/internal](https://github.com/gokrazy/internal), [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper), [machine-drivers/docker-machine-driver-qemu](https://github.com/machine-drivers/docker-machine-driver-qemu), [mojbro/gocoa](https://github.com/mojbro/gocoa), and others.
 
 ---
 
 ### Highlights
 
 - Maintainer of **traefik-proxmox-plugin** (18⭐) and **go-proxmox**
-- 152 public PRs, 115 merged, across Rust, Go, Java, and JavaScript ecosystems
+- 151 public PRs, 114 merged, across Go, Rust, Java, and JavaScript ecosystems
 - Self-hosted infrastructure: GitLab, Kubernetes, NixOS
 
 ---
