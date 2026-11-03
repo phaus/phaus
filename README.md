@@ -4,7 +4,7 @@
 
 <p align="left">
   <img width="49%" src="./metrics.plugin.header.svg" />
-</p
+</p>
 <p align="left">
   <img width="49%" src="./metrics.plugin.iso_calender.svg" />
 </p>
@@ -100,7 +100,7 @@ Focus: **Agentic Coding**, **Local AI / LLMs**, Tooling, Automation.
 | [munin-monitoring/contrib](https://github.com/munin-monitoring/contrib) | 4 | Munin plugins (Perl) |
 | [mojbro/gocoa](https://github.com/mojbro/gocoa) | 4 | Objective-C Cocoa wrapper |
 | [curiosdevcookie/taskmaster](https://github.com/curiosdevcookie/taskmaster) | 4 | Elixir task runner |
-| [consolving/gokrazy-router](https://github.com/consolving/gokrazy-router) | 4 | gokrazy router firmware |
+| [consolving/gokrazy-router](https://github.com/consolving/gokrazy-router) | 2 | gokrazy router firmware |
 | [google/martian](https://github.com/google/martian) | 2 | Go HTTP proxy |
 | [google/go-replayers](https://github.com/google/go-replayers) | 2 | Go replay mock library |
 | [EmDee/moneymoney-bondora](https://github.com/EmDee/moneymoney-bondora) | 2 | MoneyMoney extension for Bondora |
